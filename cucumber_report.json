@@ -1,0 +1,334 @@
+[
+  {
+    "description": "",
+    "elements": [
+      {
+        "description": "",
+        "id": "cpanel-test;order-product-test",
+        "keyword": "Scenario",
+        "line": 6,
+        "name": "Order product test",
+        "steps": [
+          {
+            "keyword": "Before",
+            "hidden": true,
+            "result": {
+              "status": "passed",
+              "duration": 511718199
+            }
+          },
+          {
+            "keyword": "Before",
+            "hidden": true,
+            "result": {
+              "status": "passed",
+              "duration": 597300
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "line": 7,
+            "name": "User opens cPanel Home Page",
+            "match": {
+              "location": "file:\\C:\\Users\\Roman_Khrabatyn\\cPanel\\cPanel\\cPanel\\tests\\features\\step_definitions\\loginPageSteps.js:14"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 2016664599
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 8,
+            "name": "Verify that user redirects to Home Page",
+            "match": {
+              "location": "file:\\C:\\Users\\Roman_Khrabatyn\\cPanel\\cPanel\\cPanel\\tests\\features\\step_definitions\\loginPageSteps.js:18"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 70897799
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 9,
+            "name": "User chooses 1 product to order on Home Page",
+            "match": {
+              "location": "file:\\C:\\Users\\Roman_Khrabatyn\\cPanel\\cPanel\\cPanel\\tests\\features\\step_definitions\\loginPageSteps.js:22"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 1263337599
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 10,
+            "name": "Verify that user redirects to Account Page",
+            "match": {
+              "location": "file:\\C:\\Users\\Roman_Khrabatyn\\cPanel\\cPanel\\cPanel\\tests\\features\\step_definitions\\loginPageSteps.js:26"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 124138999
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 11,
+            "name": "Save Total Due Today price on Account Page",
+            "match": {
+              "location": "file:\\C:\\Users\\Roman_Khrabatyn\\cPanel\\cPanel\\cPanel\\tests\\features\\step_definitions\\loginPageSteps.js:30"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 929691400
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 12,
+            "name": "User chooses 1 addon on Account Page",
+            "match": {
+              "location": "file:\\C:\\Users\\Roman_Khrabatyn\\cPanel\\cPanel\\cPanel\\tests\\features\\step_definitions\\loginPageSteps.js:38"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 53358200
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 13,
+            "name": "User enters \"random\" IP Address on Account Page",
+            "match": {
+              "location": "file:\\C:\\Users\\Roman_Khrabatyn\\cPanel\\cPanel\\cPanel\\tests\\features\\step_definitions\\loginPageSteps.js:34"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 12125799
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 14,
+            "name": "Verify the \"Order Summary\" is updated on Account Page",
+            "match": {
+              "location": "file:\\C:\\Users\\Roman_Khrabatyn\\cPanel\\cPanel\\cPanel\\tests\\features\\step_definitions\\loginPageSteps.js:42"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 836391000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 15,
+            "name": "User clicks Continue button on Account Page",
+            "match": {
+              "location": "file:\\C:\\Users\\Roman_Khrabatyn\\cPanel\\cPanel\\cPanel\\tests\\features\\step_definitions\\loginPageSteps.js:46"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 3023895000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 16,
+            "name": "Verify the expected addons is present in Step 2 Review & Checkou on Account Page",
+            "match": {
+              "location": "file:\\C:\\Users\\Roman_Khrabatyn\\cPanel\\cPanel\\cPanel\\tests\\features\\step_definitions\\loginPageSteps.js:50"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 870900
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 17,
+            "name": "Verify the addons price is correct in Step 2 Review & Checkou on Account Page",
+            "match": {
+              "location": "file:\\C:\\Users\\Roman_Khrabatyn\\cPanel\\cPanel\\cPanel\\tests\\features\\step_definitions\\loginPageSteps.js:54"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 2819229499
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 18,
+            "name": "User clicks Checkout button on Account Page",
+            "match": {
+              "location": "file:\\C:\\Users\\Roman_Khrabatyn\\cPanel\\cPanel\\cPanel\\tests\\features\\step_definitions\\loginPageSteps.js:58"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 1227389299
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 19,
+            "name": "Verify \"cPanel Solo® Cloud (1 Account)\" is correct on Account Page",
+            "match": {
+              "location": "file:\\C:\\Users\\Roman_Khrabatyn\\cPanel\\cPanel\\cPanel\\tests\\features\\step_definitions\\loginPageSteps.js:62"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 588199
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 20,
+            "name": "Verify \"Monthly CloudLinux\" is correct on Account Page",
+            "match": {
+              "location": "file:\\C:\\Users\\Roman_Khrabatyn\\cPanel\\cPanel\\cPanel\\tests\\features\\step_definitions\\loginPageSteps.js:62"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 787700
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 21,
+            "name": "Verify IP address on Account Page",
+            "match": {
+              "location": "file:\\C:\\Users\\Roman_Khrabatyn\\cPanel\\cPanel\\cPanel\\tests\\features\\step_definitions\\loginPageSteps.js:66"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 83819200
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 22,
+            "name": "Verify 'saved' Bonus: The “Due Today“ price on Account Page",
+            "match": {
+              "location": "file:\\C:\\Users\\Roman_Khrabatyn\\cPanel\\cPanel\\cPanel\\tests\\features\\step_definitions\\loginPageSteps.js:70"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 40007999
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 23,
+            "name": "Verify the 'Personal Information' is displayed on Account Page",
+            "match": {
+              "location": "file:\\C:\\Users\\Roman_Khrabatyn\\cPanel\\cPanel\\cPanel\\tests\\features\\step_definitions\\loginPageSteps.js:74"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 1378199
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 24,
+            "name": "Verify the 'Billing Address' is displayed on Account Page",
+            "match": {
+              "location": "file:\\C:\\Users\\Roman_Khrabatyn\\cPanel\\cPanel\\cPanel\\tests\\features\\step_definitions\\loginPageSteps.js:74"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 1701100
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 25,
+            "name": "Verify the 'Account Security' is displayed on Account Page",
+            "match": {
+              "location": "file:\\C:\\Users\\Roman_Khrabatyn\\cPanel\\cPanel\\cPanel\\tests\\features\\step_definitions\\loginPageSteps.js:74"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 1015699
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 26,
+            "name": "Verify the 'Payment Details' is displayed on Account Page",
+            "match": {
+              "location": "file:\\C:\\Users\\Roman_Khrabatyn\\cPanel\\cPanel\\cPanel\\tests\\features\\step_definitions\\loginPageSteps.js:74"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 536099
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 27,
+            "name": "Verify the 'Complete Order' Button is displayed and is Disabled on Account Page",
+            "match": {
+              "location": "file:\\C:\\Users\\Roman_Khrabatyn\\cPanel\\cPanel\\cPanel\\tests\\features\\step_definitions\\loginPageSteps.js:78"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 6874900
+            }
+          },
+          {
+            "keyword": "After",
+            "hidden": true,
+            "result": {
+              "status": "passed",
+              "duration": 291756700
+            }
+          }
+        ],
+        "tags": [
+          {
+            "name": "@ui",
+            "line": 3
+          },
+          {
+            "name": "@smoke",
+            "line": 4
+          },
+          {
+            "name": "@cPanel-001",
+            "line": 5
+          }
+        ],
+        "type": "scenario"
+      }
+    ],
+    "id": "cpanel-test",
+    "line": 1,
+    "keyword": "Feature",
+    "name": "cPanel test",
+    "tags": [],
+    "uri": "tests\\features\\test.feature"
+  }
+]

@@ -1,0 +1,62 @@
+# Node.js dependencies
+node_modules/
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+# Logs
+logs
+*.log
+logs/*.log
+
+# Runtime data
+pids
+*.pid
+*.seed
+*.pid.lock
+
+# Testing
+.vscode/
+.idea/
+playwright-report/
+*.log
+*.tsbuildinfo
+*.test-results
+
+# Coverage reports
+coverage/
+*.lcov
+
+# Environment variables
+.env
+.env.*.local
+
+# OS-specific files
+.DS_Store
+Thumbs.db
+
+# Editor settings
+*.swp
+*.swo
+*~
+*.bak
+*.tmp
+
+# Temporary files
+.temp/
+.cache/
+
+# IDE settings
+.vscode/
+.idea/
+
+# Other Playwright outputs
+trace.zip
+*.png
+*.mp4
+*.zip
+screenshots/
+
+# Lock files
+package-lock.json
+yarn.lock
